@@ -44,6 +44,7 @@
 		270FB75D2935FDF400A74EE2 /* GPSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		270FB7612935FDF400A74EE2 /* GPSDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSDemoUITests.swift; sourceTree = "<group>"; };
 		270FB7632935FDF400A74EE2 /* GPSDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		270FB7702935FE9D00A74EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		270FB7452935FDF200A74EE2 /* GPSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				270FB7702935FE9D00A74EE2 /* Info.plist */,
 				270FB7462935FDF200A74EE2 /* GPSDemoApp.swift */,
 				270FB7482935FDF200A74EE2 /* ContentView.swift */,
 				270FB74A2935FDF300A74EE2 /* Assets.xcassets */,
@@ -419,6 +421,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GPSDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GPSDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +450,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GPSDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GPSDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
